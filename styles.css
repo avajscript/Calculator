@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  box-sizing: border-box;
+}
+
+.container span {
+  display: inline-block;
+  border: 1px solid grey;
+  padding: 10px 20px;
+  width: 30px;
+  text-align: center;
+  background-color: #ececec;
+}
+
+.container span:hover {
+  cursor: pointer;
+}
+
+.container span:active {
+  background-color: #add8e6;
+}
+
+span.symbol {
+  background-color: #add8e6;
+}
+
+div.row-4 span:nth-child(3) {
+  background-color: #6495ed;
+}
+
+div.row-4 span:nth-child(3):active {
+  background-color: #ececec;
+}
+
+span.symbol:active {
+  background-color: #ececec;
+}
+
+div#user-input {
+  background-color: #6495ed;
+  display: inline-block;
+  width: 302px;
+  text-align: right;
+  font-size: 1.2em;
+}
